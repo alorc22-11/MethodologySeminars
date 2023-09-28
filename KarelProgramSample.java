@@ -29,5 +29,6 @@ public class KarelProgramSample extends SuperKarel {
 			putBeeper();
 	
 		}
+		move();
 	}
 }
