@@ -15,11 +15,14 @@ public class KarelProgramSample extends SuperKarel {
 
 	@Override
 	public void run() {
-		move();
+		while(frontIsClear()) {
+			move();
+		}
+		/*move();
 		move();
 		pickBeeper();
 		move();
-		putBeeper();
+		putBeeper();*/
 	}
 	
 }
