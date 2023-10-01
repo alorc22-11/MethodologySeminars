@@ -8,6 +8,7 @@ public class Meotxe extends SuperKarel{
 	}
 	private void daarige(){
 		while(frontIsClear()){
+			move();
 			if(noBeepersPresent()){
 				putBeeper();
 				
