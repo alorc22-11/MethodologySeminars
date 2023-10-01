@@ -4,7 +4,8 @@ public class Thirdkarel extends SuperKarel{
 	
 	public void run(){
 		
-		Irbine();
+		Irbine();/*tu qucha1x10zea mashin  turn left samjer*/
+		
 		
 	}
 
