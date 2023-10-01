@@ -3,6 +3,7 @@ import stanford.karel.*;
 public class Thirdkarel extends SuperKarel{
 	
 	public void run(){
+		
 		Irbine();
 		
 	}
@@ -12,6 +13,7 @@ public class Thirdkarel extends SuperKarel{
 		 while(frontIsClear()){
 			 move();
 		 }
+		 
 	 }
 	
 }
