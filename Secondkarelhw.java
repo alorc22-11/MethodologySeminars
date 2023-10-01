@@ -7,7 +7,7 @@ public class Secondkarelhw extends SuperKarel{
 	 move();
 	 move();
 	  for(int i=0; i<10; i++){
-		  pickBeepeer();
+		  pickBeeper();
 	  }
 	 move();
 	 for(int i=0; i<10; i++){
