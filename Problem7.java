@@ -29,9 +29,10 @@ public class Problem7 extends SuperKarel{
 				daarige();
 				
 			}
-			
+		   }
 		}
 	}
+	
 
 	
 
