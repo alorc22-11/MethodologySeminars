@@ -22,6 +22,9 @@ public class Meshvide extends SuperKarel{
 	private void Mouxvie(){
 		if(frontIsBlocked()){turnLeft();}
 	}
+	private void Gadauxvie(){
+		if(beepersPresent()){turnLeft();daarige();}
+	}
 	
 	}
 	
