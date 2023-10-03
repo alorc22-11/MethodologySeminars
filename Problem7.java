@@ -1,13 +1,11 @@
 import stanford.karel.*;
-public class Meshvide extends SuperKarel{
+public class Problem7 extends SuperKarel{
 	public void run(){
 		 for(int i=0; i<1000; i++){	
 			 putBeeper();
 		     daarige();
 		     Mouxvie();
 		     Gadauxvie();
-	
-
 		 }
 		
 	}
@@ -21,13 +19,18 @@ public class Meshvide extends SuperKarel{
 		}
 	}
 	private void Mouxvie(){
-		if(frontIsBlocked()){turnLeft();}
+		if(frontIsBlocked()){
+			turnLeft();
+		}
 	}
 	private void Gadauxvie(){
-		if(beepersPresent()){turnLeft();daarige();}
+		if(beepersPresent()){
+			turnLeft();
+		    daarige();
+		}
 	}
 	
-	}
+}
 	
 
 
