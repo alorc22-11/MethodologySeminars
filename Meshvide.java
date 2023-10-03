@@ -4,11 +4,9 @@ public class Meshvide extends SuperKarel{
 		 for(int i=0; i<1000; i++){	
 			 putBeeper();
 		     daarige();
-		     turnLeft();
-		     if(noBeepersPresent()){turnLeft();daarige();}
-		  
-		  
-		
+		     Mouxvie();
+	
+
 		 }
 		
 	}
@@ -19,6 +17,14 @@ public class Meshvide extends SuperKarel{
 				putBeeper();
 			}
 		
+		}
+	}
+	private void Mouxvie(){
+		while(frontIsBlocked()){
+			turnLeft();
+			if(noBeepersPresent()){
+				putBeeper();
+			}
 		}
 	}
 	
