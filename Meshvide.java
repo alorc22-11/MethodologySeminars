@@ -4,6 +4,8 @@ public class Meshvide extends SuperKarel{
 		putBeeper();
 		daarige();
 		mouxvie();
+		daarige();
+		
 		
 		
 	}
