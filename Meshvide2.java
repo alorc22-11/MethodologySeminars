@@ -12,11 +12,8 @@ public class Meshvide2 extends SuperKarel{
 		turnLeft();
 		
 		}
-	
-	}
 
 	
 		
 	}
 	
-}
