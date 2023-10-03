@@ -1,6 +1,6 @@
 import stanford.karel.*;
 
-public class Meotxe extends SuperKarel{
+public class Problem45 extends SuperKarel{
 	public void run(){
 		putBeeper();
 		daarige();
