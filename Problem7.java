@@ -5,6 +5,7 @@ public class Problem7 extends SuperKarel{
 			 putBeeper();
 		     daarige();
 		     Mouxvie();
+		     daarige();
 		 }
 
 		
