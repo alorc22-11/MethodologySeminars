@@ -11,11 +11,11 @@ public class Meotxe extends SuperKarel{
 		while(frontIsClear()){
 			move();/* eseigi 5zec mushaobs*/
 			
-			}
+			
 		if(noBeepersPresent()){
 			putBeeper();
 			
-		
+		}
 		
 			}
 	}
