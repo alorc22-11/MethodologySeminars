@@ -7,11 +7,12 @@ public class Meotxe extends SuperKarel{
 		
 	}
 	private void daarige(){
+		if(noBeepersPresent()){
+			putBeeper();
+			
 		while(frontIsClear()){
 			move();/* eseigi 5zec mushaobs*/
-			if(noBeepersPresent()){
-				putBeeper();
-				
+			
 			}
 		
 			}
