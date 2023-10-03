@@ -2,7 +2,6 @@ import stanford.karel.*;
 
 public class Meotxe extends SuperKarel{
 	public void run(){
-		move();
 		daarige();
 		
 		
