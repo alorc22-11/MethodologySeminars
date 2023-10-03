@@ -19,11 +19,10 @@ public class Problem7 extends SuperKarel{
 		}
 	}
 	private void Mouxvie(){
-		for(int i=0; i<100; i++){
-		   if(frontIsBlocked()){
 		
-			turnLeft();
-			daarige();
+		   if(frontIsBlocked()){
+		        turnLeft();
+			    daarige();
 			if(beepersPresent()){
 				move();
 				daarige();
@@ -32,7 +31,7 @@ public class Problem7 extends SuperKarel{
 		   }
 		}
 	}
-}
+
 	
 
 	
