@@ -22,6 +22,10 @@ public class Problem7 extends SuperKarel{
 		if(frontIsBlocked()){
 			turnLeft();
 			daarige();
+			if(beepersPresent()){
+				move();
+				
+			}
 			
 		}
 	}
