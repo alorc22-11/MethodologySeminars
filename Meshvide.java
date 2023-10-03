@@ -22,7 +22,7 @@ public class Meshvide extends SuperKarel{
 	private void Mouxvie(){
 		while(beepersPresent()){
 			turnLeft();
-			if(frontIsBlocked()){
+			if(frontIsClear()){
 				putBeeper();
 			}
 		}
