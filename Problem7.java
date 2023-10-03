@@ -21,16 +21,13 @@ public class Problem7 extends SuperKarel{
 	private void Mouxvie(){
 		if(frontIsBlocked()){
 			turnLeft();
+			daarige();
+			
 		}
 	}
-	private void Gadauxvie(){
-		if(beepersPresent()){
-			turnLeft();
-		    daarige();
-		}
-	}
-	
 }
+	
+
 	
 
 
