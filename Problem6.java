@@ -12,7 +12,7 @@ public class Problem6 extends SuperKarel{
 			}
 		
 		move();
-		int m=beepersPresent();
+	     boolean m=beepersPresent();
 		for (int i=0; i<m; i++){
 			pickBeeper();
 			}

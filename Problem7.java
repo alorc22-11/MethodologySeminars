@@ -4,8 +4,7 @@ public class Problem7 extends SuperKarel{
 		 for(int i=0; i<1000; i++){	
 			 putBeeper();
 		     daarige();
-		     Mouxvie();
-		     daarige();
+		    
 		 }
 
 		
@@ -19,18 +18,7 @@ public class Problem7 extends SuperKarel{
 		
 		}
 	}
-	private void Mouxvie(){
-		
-		   if(frontIsBlocked()){
-		        turnLeft();
-			    daarige();
-			if(beepersPresent()){
-				move();
-		
-				
-			}
-		   }
-		}
+	
 	}
 
 	
