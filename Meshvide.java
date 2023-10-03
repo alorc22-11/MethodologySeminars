@@ -25,6 +25,7 @@ public class Meshvide extends SuperKarel{
 		}else{ turnLeft();
 		turnLeft();
 		turnLeft();
+		daarige();
 		}
 	}
 	
