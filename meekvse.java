@@ -1,5 +1,5 @@
 import stanford.karel.*;
-public class Mexute extends SuperKarel{
+public class meekvse extends SuperKarel{
 	public void run(){
 		move();
 		
