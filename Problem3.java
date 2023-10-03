@@ -1,6 +1,6 @@
 import stanford.karel.*;
 
-public class Thirdkarel extends SuperKarel{
+public class Problem3 extends SuperKarel{
 	
 	public void run(){
 		
@@ -13,6 +13,8 @@ public class Thirdkarel extends SuperKarel{
 	 private void Irbine(){
 		 while(frontIsClear()){
 			 move();
+			 //ar gvaqvs konkretuli ciklis raodenoba,for viyenebt tu viict ramdenjer gvinda rom moqmedeba qnas
+			 
 		 }
 		 
 	 }
