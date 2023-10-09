@@ -24,7 +24,7 @@ public class Problem7 extends SuperKarel{
 		
 	        if(rightIsBlocked()){
 		       turnLeft();
-		       if(leftIsClear()){
+		       if(leftIsBlocked()){
 		    	   move();
 		    	   turnLeft();
 		       }
@@ -33,7 +33,7 @@ public class Problem7 extends SuperKarel{
 	        }
 		    if(leftIsBlocked()){
 		    	turnRight();
-		    	if(rightIsClear()){
+		    	if(rightIsBlocked()){
 		    		move();
 		    		turnRight();
 		    	}
