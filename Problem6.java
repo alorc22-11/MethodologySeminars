@@ -2,17 +2,13 @@ import stanford.karel.*;
 public class Problem6 extends SuperKarel{
 	public void run(){
 		move();
-		while(noBeepersPresent()){
-	       pickBeeper();
-	       
-		}
+		//aigemeoreda();
 		move();
-		while(noBeepersPresent()){
-			pickBeeper();
-			
-		}
+		//aigemesamedan();
 		move();
-		putBeeper();
+		while(beepersInBag()){
+			putBeeper();
+		}
 	 
 			
 	}
