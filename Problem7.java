@@ -2,7 +2,7 @@ import stanford.karel.*;
 public class Problem7 extends SuperKarel{
 	public void run(){
 		 putBeeper();
-		 for(int i=0; i<10; i++){
+		 for(int i=0; i<2; i++){
 		     daarige();
 		     tanmoxveva();
 		 }
