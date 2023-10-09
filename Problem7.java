@@ -3,13 +3,9 @@ public class Problem7 extends SuperKarel{
 	public void run(){
 		 putBeeper();
 		
-		    for(int s=0; s<3; s++){
+		    for(int s=0; s<1000; s++){
 		        daarige();
 		        tanmoxveva();
-		    
-		 turnLeft();
-		 turnLeft();
-		 turnRight(); 
 		   } 
 		 
 
@@ -28,10 +24,17 @@ public class Problem7 extends SuperKarel{
 		
 	        if(rightIsBlocked()){
 		       turnLeft();
+		       if(leftIsBlocked()){
+		    	   move();
+		       }
 		       daarige();
+	        
 	        }
 		    if(leftIsBlocked()){
 		    	turnRight();
+		    	if(rightIsBlocked()){
+		    		move();
+		    	}
 		    	daarige();
 		    } 
 		      
