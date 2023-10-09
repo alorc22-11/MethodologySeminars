@@ -2,21 +2,18 @@ import stanford.karel.*;
 public class Problem7 extends SuperKarel{
 	public void run(){
 		 putBeeper();
-		 for(int s=0; s<5; s++){
-		   for(int i=0; i<3; i++){
+		 for(int t=0; t<7; t++){
+		    for(int s=0; s<5; s++){
+		        for(int i=0; i<3; i++){
 		        daarige();
 		        tanmoxveva();
-		   }
+		    }
 		 turnLeft();
 		 turnLeft();
-		 
 		 move();  
-		 
-		 turnRight();
-		 
-		  
-		    
-		 } 	 
+		 turnRight(); 
+		   } 
+		 }
 
 		
 	}
