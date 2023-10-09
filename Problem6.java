@@ -4,20 +4,38 @@ public class Problem6 extends SuperKarel{
 		move();
 		moayomaremeoreujra();
 	    move();
+	    moayomaremesameujra();
+	    move();
 		}
-	 private void moayomaremeoreujra(){
+	 private void moayomaremesameujra() {
 		while(beepersPresent()){
 			pickBeeper();
+			move();
+			putBeeper();
+			turnLeft();
+			turnLeft();
+			move();
+			turnLeft();
+			turnLeft();
+			
+			
+		}
+	}
+	private void moayomaremeoreujra(){
+		while(beepersPresent()){
+			pickBeeper();
+		    move();
 		    move();
 		    putBeeper();
 		    turnLeft();
 		    turnLeft();
 		    move();
+		    move();
 		    turnLeft();
 		    turnLeft();
-		    	
-		    
 		 }
+	
+	
 		
 	 }
 		 
