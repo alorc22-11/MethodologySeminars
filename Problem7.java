@@ -3,7 +3,7 @@ public class Problem7 extends SuperKarel{
 	public void run(){
 		 putBeeper();
 		 for(int s=0; s<1000; s++){
-		   for(int i=0; i<10; i++){
+		   for(int i=0; i<3; i++){
 		        daarige();
 		        tanmoxveva();
 		   }
