@@ -11,10 +11,7 @@ public class Problem7 extends SuperKarel{
 		 turnLeft();
 		 move();
 		 turnLeft();
-		   for(int m=0; m<3; m++){
-		       daarige();
-		       tanmoxveva();
-		   }
+		  
 		    
 		 } 
 
