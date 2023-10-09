@@ -9,7 +9,7 @@ public class Problem7 extends SuperKarel{
 		    
 		 turnLeft();
 		 turnLeft();
-		 if(rightIsBlocked()){
+		 if(leftIsBlocked()){
 			 move();
 		 }
 		 turnRight(); 
