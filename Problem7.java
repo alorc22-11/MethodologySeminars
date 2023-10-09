@@ -18,7 +18,7 @@ public class Problem7 extends SuperKarel{
 			}
 		}
 	}
-	private void tanmoveva(){
+	private void tanmoxveva(){
 		if(frontIsBlocked()){
 		   turnLeft();
 		   daarige();
