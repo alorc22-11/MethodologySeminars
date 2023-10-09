@@ -3,6 +3,7 @@ public class Problem7 extends SuperKarel{
 	public void run(){
 		 putBeeper();
 		 daarige();
+		 tanmoxveva();
 		    
 		 
 
@@ -17,7 +18,15 @@ public class Problem7 extends SuperKarel{
 			}
 		}
 	}
+	private void tanmoveva(){
+		if(frontIsBlocked()){
+		   turnLeft();
+		   daarige();
+	    }
+		
+	}
 }
+
 		
 		
 
