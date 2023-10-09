@@ -30,12 +30,20 @@ public class Problem7 extends SuperKarel{
 	private void tanmoxveva(){
 		if(facingWest()){ 
 		    if(leftIsBlocked()){
-		       turnLeft();
+		       turnRight();
 		       daarige();
-	        }
+	        }   
+	    }
+		if(facingEast()){
+			if(rightIsBlocked()){
+			       turnLeft();
+			       daarige();
+		    }
 	    }
 	}
 }
+
+
 
 		
 		
