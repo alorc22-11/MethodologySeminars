@@ -28,10 +28,11 @@ public class Problem7 extends SuperKarel{
 		}
 	}
 	private void tanmoxveva(){
-		    if(frontIsBlocked()){
+	        if(rightIsBlocked()){
 		       turnLeft();
 		       daarige();
-	        }   
+	        }  
+		   
 	}
 		
 }
