@@ -3,12 +3,10 @@ public class Problem6 extends SuperKarel{
 	public void run(){
 		move();
 		moayomaremeoreujra();
-		move();
-		//moayomaremesameujra();
-		move();
+	
 		}
 	 private void moayomaremeoreujra(){
-		while(beepersPresent()){
+		while(noBeepersPresent()){
 			pickBeeper();
 		    move();
 		    move();
