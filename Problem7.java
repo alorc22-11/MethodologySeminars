@@ -9,7 +9,7 @@ public class Problem7 extends SuperKarel {
 		        tanmoxveva();
 		   }
 		    if(beepersPresent()){
-		    	turnRight();
+		    	turnLeft();
 		    	turnLeft();
 		    	move();
 		    	turnRight();
