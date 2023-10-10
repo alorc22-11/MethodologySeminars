@@ -16,7 +16,7 @@ public class Problem12 extends GraphicsProgram{
 	add(Fanjara2, 880, 420);
 	
 	GOval Fanjara3 = new GOval(100,100);
-	add(Fanjara3, 980, 420);
+	add(Fanjara3, 1020, 420);
 	 
 	GOval Fanjara4 = new GOval(100,100);
 	add(Fanjara4, 1000, 600);
