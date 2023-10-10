@@ -13,6 +13,9 @@ public class Problem12 extends GraphicsProgram{
 	GRect secondRect = new GRect(100,200);
 	add(myrect, 300, 150);
 	
+	myrect = new GRect(100,200);
+	add(myrect, 300, 150);
+	
 	
     }
 }
