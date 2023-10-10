@@ -16,6 +16,7 @@ public class Problem12 extends GraphicsProgram{
 	myrect = new GRect(100,200);
 	add(myrect, 300, 150);
 	
+	myrect.setFilled(true);
 	
     }
 }
