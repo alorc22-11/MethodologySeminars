@@ -6,14 +6,10 @@ public class Problem8 extends SuperKarel {
 		move();
 		move();
 		turnAround();
-		move();
-		move();
-		turnAround();
-		move();
+		
+	
 		mogvareba();
-		move();
-		move();
-		move();	
+			
 	}
 	private void ujra2fafu(){
 		while(beepersPresent()){
