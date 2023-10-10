@@ -22,7 +22,7 @@ public class Problem7 extends SuperKarel{
 		    	turnLeft();
 		    	turnLeft();
 		    	turnLeft();
-		        turnLeft();
+		        
 		        
 		    	daarige();
 		    	tanmoxveva();
