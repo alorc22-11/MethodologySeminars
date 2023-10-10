@@ -25,6 +25,7 @@ public class Problem7 extends SuperKarel{
 			turnLeft();
 			daarige();
 		}
+		if(beepersPresent())
 	}
 	
 		
