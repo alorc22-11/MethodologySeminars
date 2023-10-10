@@ -5,10 +5,10 @@ public class Problem8 extends SuperKarel {
 		ujra2fafu();
 		move();
 		move();
-		//mogvareba();
+		/*mogvareba();
 		move();
 		move();
-		move();	
+		move();	*/
 	}
 	private void ujra2fafu(){
 		while(beepersPresent()){
@@ -22,5 +22,8 @@ public class Problem8 extends SuperKarel {
 				turnAround();
 		}
 	}
+	//private void mogvareba(){
+		
+	//}
 
 }
