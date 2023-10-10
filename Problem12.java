@@ -10,13 +10,13 @@ public class Problem12 extends GraphicsProgram{
 	add(myRect, 700, 350);
 		
 	GOval Fanjara1 = new GOval(100,100);
-	add(Fanjara1, 740, 420);
+	add(Fanjara1, 760, 420);
 	
 	GOval Fanjara2 = new GOval(100,100);
-	add(Fanjara2, 880, 420);
+	add(Fanjara2, 900, 420);
 	
 	GOval Fanjara3 = new GOval(100,100);
-	add(Fanjara3, 1020, 420);
+	add(Fanjara3, 1040, 420);
 	 
 	GOval Fanjara4 = new GOval(100,100);
 	add(Fanjara4, 1000, 600);
