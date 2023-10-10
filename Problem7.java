@@ -26,13 +26,16 @@ public class Problem7 extends SuperKarel {
 				    	daarige();
 				    	tanmoxveva();
 		    }
-		           /* if(facingNorth()){
+		           if(facingNorth()){
+		            	turnLeft();
 		            	turnLeft();
 		            	move();
 		            	turnLeft();
+		            	turnLeft();
+		            	turnLeft();
 		            	daarige();
 		            	tanmoxveva();
-		            }*/
+		            }
 	 
 		
 	}
