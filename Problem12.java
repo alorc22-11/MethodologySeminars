@@ -6,8 +6,8 @@ import acm.program.GraphicsProgram;
 public class Problem12 extends GraphicsProgram{
 	public void run(){
 		
-	GRect myRect = new GRect(1000,400);	
-	add(myRect, 100, 0);
+	GRect myRect = new GRect(800,300);	
+	add(myRect, 0, 100);
 		
 	}
 	
