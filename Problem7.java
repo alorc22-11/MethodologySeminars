@@ -7,16 +7,8 @@ public class Problem7 extends SuperKarel{
 		        daarige();
 		        tanmoxveva();
 		   }
-		    if(beepersPresent()){
-				turnLeft();
-				turnLeft();
-				move();
-				turnRight();
-				daarige();
-				tanmoxveva();
-		
-		 
-
+		  
+	
 		
 	}
 	private void daarige(){
