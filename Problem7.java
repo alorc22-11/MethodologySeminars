@@ -8,7 +8,18 @@ public class Problem7 extends SuperKarel {
 		        daarige();
 		        tanmoxveva();
 		   }
-				     if(facingSouth()){
+		    if(beepersPresent()){
+		    	turnRight();
+		    	turnLeft();
+		    	move();
+		    	turnRight();
+		    	for(int s=0; s<3; s++){
+			        daarige();
+			        tanmoxveva();
+		    	}
+		    }
+		    
+				  /*   if(facingSouth()){
 				    	turnLeft();
 				    	turnLeft();
 				    	move();
@@ -44,7 +55,7 @@ public class Problem7 extends SuperKarel {
 		        	   daarige();
 		        	   tanmoxveva();
 		        	   
-		           }
+		           }*/
 	 
 		
 	}
