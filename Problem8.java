@@ -3,9 +3,7 @@ public class Problem8 extends SuperKarel {
 	public void run(){
 		move();
 		ujra2fafu();
-		move();
-		move();
-		turnAround();
+		
 		
 	
 	//mogvareba();
