@@ -3,7 +3,6 @@ public class Problem8 extends SuperKarel {
 	public void run(){
 		move();
 		ujra2fafu();
-		move();
 		mogvareba();
 			
 	}
@@ -20,6 +19,7 @@ public class Problem8 extends SuperKarel {
 		}
 	}
 	private void mogvareba(){
+		move();
 		while(beepersPresent()){
 			pickBeeper();
 			move();
