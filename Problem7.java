@@ -1,5 +1,6 @@
 import stanford.karel.*;
-public class Problem7 extends SuperKarel{
+
+public class Problem7 extends SuperKarel {
 	public void run(){
 		 putBeeper();
 		
@@ -7,51 +8,54 @@ public class Problem7 extends SuperKarel{
 		        daarige();
 		        tanmoxveva();
 		   }
-		    if(facingSouth()){
-		    	turnLeft();
-		    	turnLeft();
-		    	move();
-		    	turnRight();
-		    	daarige();
-		    	tanmoxveva();
+				     if(facingSouth()){
+				    	turnLeft();
+				    	turnLeft();
+				    	move();
+				    	turnRight();
+				    	daarige();
+				    	tanmoxveva();
 		    }
-		    if(facingEast()){
-		    	turnLeft();
-		    	turnLeft();
-		    	move();
-		    	turnLeft();
-		    	turnLeft();
-		    	turnLeft();
-		        
-		        
-		    	daarige();
-		    	tanmoxveva();
+				    if(facingEast()){
+				    	turnLeft();
+				    	turnLeft();
+				    	move();
+				    	turnLeft();
+				    	turnLeft();
+				    	turnLeft();
+				    	daarige();
+				    	tanmoxveva();
 		    }
-		  
-	
+		            if(facingNorth()){
+		            	turnLeft();
+		            	move();
+		            	turnLeft();
+		            	daarige();
+		            	tanmoxveva();
+		            }
+	 
 		
 	}
-	private void daarige(){
-		while(frontIsClear()){
+
+	private void daarige() {
+		while (frontIsClear()) {
 			move();
 
-			if(noBeepersPresent()){
+			if (noBeepersPresent()) {
 				putBeeper();
 			}
 		}
 	}
-	private void tanmoxveva(){
-		if(rightIsBlocked()){
+
+	private void tanmoxveva() {
+		if (rightIsBlocked()) {
 			turnLeft();
 			daarige();
 		}
-		
+
 	}
-	
-		
+
 }
-
-
 
 
 		
