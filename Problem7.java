@@ -7,6 +7,14 @@ public class Problem7 extends SuperKarel{
 		        daarige();
 		        tanmoxveva();
 		   }
+		    if(facingSouth()){
+		    	turnLeft();
+		    	turnLeft();
+		    	move();
+		    	turnRight();
+		    	daarige();
+		    	tanmoxveva();
+		    }
 		  
 	
 		
