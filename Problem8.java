@@ -8,7 +8,7 @@ public class Problem8 extends SuperKarel {
 		turnAround();
 		
 	
-	//	mogvareba();
+	//mogvareba();
 			
 	}
 	private void ujra2fafu(){
@@ -36,4 +36,4 @@ public class Problem8 extends SuperKarel {
 		
 	}
 
-}
+
