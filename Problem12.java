@@ -12,6 +12,9 @@ public class Problem12 extends GraphicsProgram{
 	GOval myOval = new GOval(100,100);
 	add(myOval, 800, 450);
 	
+	GOval myOVal = new GOval(100,100);
+	add(myOVal,900, 450);
+	
 	
 	}
 	
