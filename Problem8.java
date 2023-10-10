@@ -1,4 +1,4 @@
-
-public class Problem8 {
+import stanford.karel.*;
+public class Problem8 extends Super.Karel{
 
 }

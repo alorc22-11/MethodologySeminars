@@ -57,7 +57,7 @@ public class Problem7 extends SuperKarel {
 		        	   
 		           }*/
 	 
-		
+		//sxva algoritmit vcdilob amoxsnas,wreze minda daartyas
 	}
 
 	private void daarige() {
