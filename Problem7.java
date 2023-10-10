@@ -17,7 +17,7 @@ public class Problem7 extends SuperKarel{
 		    }
 		    if(facingEast()){
 		    	turnLeft();
-		    	turnleft();
+		    	turnLeft();
 		    	move();
 		    	turnLeft();
 		    	turnLeft();
