@@ -5,6 +5,10 @@ public class Problem8 extends SuperKarel {
 		ujra2fafu();
 		move();
 		move();
+		turnAround();
+		move();
+		move();
+		turnAround();
 		/*mogvareba();
 		move();
 		move();
