@@ -5,7 +5,7 @@ public class Problem7 extends SuperKarel{
 		
 		    for(int s=0; s<3; s++){
 		        daarige();
-		        //tanmoxveva();
+		        tanmoxveva();
 		   } 
 		 
 
