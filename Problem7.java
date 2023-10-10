@@ -29,7 +29,7 @@ public class Problem7 extends SuperKarel{
 		    	tanmoxveva();
 		    }
 		    if(facingWest()){
-		    	turnLeft();
+		    	turnRight();
 		    	daarige();
 		    	tanmoxveva();
 		    }
