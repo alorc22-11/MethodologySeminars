@@ -7,7 +7,7 @@ public class Problem12 extends GraphicsProgram{
 	public void run(){
 		
 	GRect myRect = new GRect(500,600);	
-	add(myRect, 700, 400);
+	add(myRect, 700, 350);
 		
 	
 	
