@@ -14,35 +14,7 @@ public class Problem7 extends SuperKarel{
 				turnRight();
 				daarige();
 				tanmoxveva();
-			}
-		    if(frontIsBlocked()){
-		    	turnLeft();
-		    	turnLeft();
-		    	move();
-		    	if(facingSouth()){turnLeft();
-		    	daarige();
-		    	tanmoxveva();
-		    	}
-		    }else {
-		    	turnRight();
-		    	daarige();
-		    	tanmoxveva();
-		    }
-		    if(facingWest()){
-		    	turnLeft();
-		    	move();
-		    	turnRight();
-		    	daarige();
-		    	tanmoxveva();
-		    }
-		    if(facingNorth()){
-		    	turnLeft();
-		    	turnLeft();
-		    	move();
-		    	turnRight();
-		    	daarige();
-		    	tanmoxveva();
-		    }
+		
 		 
 
 		
