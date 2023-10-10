@@ -19,10 +19,15 @@ public class Problem7 extends SuperKarel{
 		    	turnLeft();
 		    	turnLeft();
 		    	move();
+		    	if(facingSouth()){turnLeft();
+		    	daarige();
+		    	tanmoxveva();
+		    	}
+		    }else {
 		    	turnRight();
 		    	daarige();
 		    	tanmoxveva();
-		    }
+		    }	
 		 
 
 		
