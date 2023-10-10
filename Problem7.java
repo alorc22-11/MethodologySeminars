@@ -15,16 +15,16 @@ public class Problem7 extends SuperKarel{
 		    	daarige();
 		    	tanmoxveva();
 		    }
-		    if(facingEast()){
-		    	turnLeft();
-		    	move();
-		    	turnLeft();
-		    	turnLeft();
-		    	turnLeft();
-		    	turnLeft();
-		    	daarige();
-		    	tanmoxveva();
-		    }
+		    //if(facingEast()){
+		    	//turnLeft();
+		    	//move();
+		    	//turnLeft();
+		    	//turnLeft();
+		    	//turnLeft();
+		    	//turnLeft();
+		    	//daarige();
+		    	//tanmoxveva();
+		   // }
 		  
 	
 		
