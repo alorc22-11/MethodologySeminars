@@ -9,25 +9,34 @@ public class assignment11 extends SuperKarel{
 	}
 
 	private void wamowola() {
-		// TODO Auto-generated method stub
+		turnRight();
+		move();
+		turnLeft();
+		move();
+		move();
+		turnAround();
 		
 	}
 
 	private void saxlshiShesvla() {
-		// TODO Auto-generated method stub
+		turnAround();
+		move();
 		
 	}
 
 	private void ageba() {
-		// TODO Auto-generated method stub
-		
+		move();
+		pickBeeper();
 	}
 
 	private void kartanMisvla() {
-		// TODO Auto-generated method stub
+		turnRight();
+		move();
+		turnLeft();
 		move();
 		move();
-		mo
+		
+		
 	}
 	
 
