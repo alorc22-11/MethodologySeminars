@@ -3,13 +3,14 @@ import stanford.karel.*;
 public class assignment11 extends SuperKarel{
 	
 	public void run(){
-		kartanMisvla();
+		gazettanMisvla();
 		ageba();
-		saxlshiShesvla();
 		wamowola();
 	}
 
 	private void wamowola() {
+		
+		move();
 		turnRight();
 		move();
 		turnLeft();
@@ -19,21 +20,17 @@ public class assignment11 extends SuperKarel{
 		
 	}
 
-	private void saxlshiShesvla() {
-		turnAround();
-		move();
-		
-	}
 
 	private void ageba() {
-		move();
 		pickBeeper();
+		turnAround();
 	}
 
-	private void kartanMisvla() {
+	private void gazettanMisvla() {
 		turnRight();
 		move();
 		turnLeft();
+		move();
 		move();
 		move();
 		
