@@ -2,9 +2,10 @@ import stanford.karel.*;
 public class assignment12 extends SuperKarel{
 	public void run(){
 		  
-		    sheketeba();
-		    gadasvla();
-	      
+		   while(frontIsClear()) {
+			     sheketeba();
+		         gadasvla();
+	       }
 	}
 
 	private void gadasvla() {
