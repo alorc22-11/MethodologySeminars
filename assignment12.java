@@ -16,7 +16,13 @@ public class assignment12 extends SuperKarel{
 		if(noBeepersPresent()){
 		putBeeper();
 		move();
+		   }else{
+		    move();
+		   }
 		}
+	
+		
+		
 	}
 	}
 
