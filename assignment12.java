@@ -15,11 +15,12 @@ public class assignment12 extends SuperKarel{
 			move();
 			move();
 			turnRight();
-			//while(frontIsClear()){
-				//move();
+			while(frontIsClear()){
+				move();	
 			}
+			turnLeft();
 		}
-	
+	}
 
 
 	private void sheketeba() {
