@@ -20,7 +20,7 @@ public class assignment12 extends SuperKarel{
 			}
 		}
 	
-	}
+
 
 	private void sheketeba() {
 	turnLeft();
