@@ -27,4 +27,4 @@ public class assignment12 extends SuperKarel{
 	}
 
 
-}
+
