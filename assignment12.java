@@ -14,9 +14,8 @@ public class assignment12 extends SuperKarel{
 	turnLeft();
 	while(frontIsClear()){
 		if(noBeepersPresent()){
-		move();
 		putBeeper();
-		
+		move();
 		}
 	}
 	}
