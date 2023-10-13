@@ -1,14 +1,26 @@
 import stanford.karel.*;
 public class assignment12 extends SuperKarel{
 	public void run(){
-		sheketeba();
-		//gadasvla();
+		  for(int s=0; s<1000000; s++){
+		    sheketeba();
+		    gadasvla();
+	      }
 	}
 
-	//private void gadasvla() {
-		// TODO Auto-generated method stub
-		
-	//}
+	private void gadasvla() {
+		turnRight();
+		if(frontIsClear()){
+			move();
+			move();
+			move();
+			move();
+			turnRight();
+			while(frontIsClear()){
+				move();
+			}
+		}
+	
+	}
 
 	private void sheketeba() {
 	turnLeft();
