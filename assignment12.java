@@ -25,20 +25,16 @@ public class assignment12 extends SuperKarel{
 
 
 	private void sheketeba() {
-	turnLeft();
-	while(frontIsClear()){
+	     turnLeft();
+	  while(frontIsClear()){
+		  move();
 		if(noBeepersPresent()){
-		putBeeper();
-		move();
-		   }else{
-		    move();
-		   }
+		     putBeeper();
 		}
+	 }
+    }
+}
 	
-		
-		
-	}
-	}
 
 
 
