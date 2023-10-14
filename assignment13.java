@@ -15,6 +15,7 @@ public class assignment13 extends SuperKarel {
 			move();
 			putBeeper();
 			move();
+			move();
 
 		}
 
