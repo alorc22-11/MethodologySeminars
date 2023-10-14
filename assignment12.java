@@ -4,7 +4,7 @@ public class assignment12 extends SuperKarel{
 		  
 		  
 			     sheketeba();
-		        // gadasvla();
+		       //  gadasvla();
 	       
 	}
 
@@ -35,6 +35,7 @@ public class assignment12 extends SuperKarel{
 		     putBeeper();
 		}
 	 }
+	  turnAround();
     }
 }
 	
