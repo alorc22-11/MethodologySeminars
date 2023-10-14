@@ -2,13 +2,13 @@ import stanford.karel.*;
 public class assignment12 extends SuperKarel{
 	public void run(){
 		  
-		   while(frontIsClear()) {
+		  
 			     sheketeba();
-		         gadasvla();
-	       }
+		        // gadasvla();
+	       
 	}
 
-	private void gadasvla() {
+	/*private void gadasvla() {
 		turnRight();
 		if(frontIsClear()){
 			move();
@@ -21,7 +21,7 @@ public class assignment12 extends SuperKarel{
 			}
 			turnLeft();
 		}
-	}
+	}*/
 
 
 	private void sheketeba() {
