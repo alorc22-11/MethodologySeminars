@@ -4,8 +4,18 @@ public class assignment12 extends SuperKarel{
 		  
 		  
 			     sheketeba();
-		       //  gadasvla();
+			     dabruneba();
+		         //gadasvla();
 	       
+	}
+
+     private void dabruneba() {
+    	  turnAround();
+    	  while(frontIsClear()){
+    		  move();
+    		  turnLeft();
+    	  }
+    	  
 	}
 
 	/*private void gadasvla() {
@@ -35,7 +45,6 @@ public class assignment12 extends SuperKarel{
 		     putBeeper();
 		}
 	 }
-	  turnAround();
     }
 }
 	
