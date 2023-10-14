@@ -9,8 +9,10 @@ public class assignment13 extends SuperKarel {
 	}
 	private void firstLine(){
 		while(frontIsClear()){
+			putBeeper();
 			move();
 			putBeeper();
+			
 			
 		}
 	}
