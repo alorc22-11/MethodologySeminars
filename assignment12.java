@@ -5,7 +5,9 @@ public class assignment12 extends SuperKarel{
 		  
 			     sheketeba();
 			     dabruneba();
-		         //gadasvla();
+			     while(frontIsClear()){
+		         gadasvla();
+			     }
 	       
 	}
 
@@ -18,20 +20,12 @@ public class assignment12 extends SuperKarel{
     	  
 	}
 
-	/*private void gadasvla() {
-		turnRight();
-		if(frontIsClear()){
+	private void gadasvla() {
 			move();
 			move();
 			move();
 			move();
-			turnRight();
-			while(frontIsClear()){
-				move();	
-			}
-			turnLeft();
-		}
-	}*/
+	}
 
 
 	private void sheketeba() {
