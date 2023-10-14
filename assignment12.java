@@ -5,11 +5,10 @@ public class assignment12 extends SuperKarel{
 		  
 			     sheketeba();
 			     dabruneba();
-			     if(frontIsClear()){
+			     while(frontIsClear()){
 		         gadasvla();
-			     }else{
-			    	 sheketeba();
 			     }
+			     
 			     
 	       
 	}
