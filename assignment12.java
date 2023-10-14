@@ -13,8 +13,8 @@ public class assignment12 extends SuperKarel{
     	  turnAround();
     	  while(frontIsClear()){
     		  move();
-    		  turnLeft();
     	  }
+    	  turnLeft();
     	  
 	}
 
