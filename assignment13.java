@@ -14,6 +14,9 @@ public class assignment13 extends SuperKarel {
 			move();
 			move();
 		    putBeeper();
+		    if(frontIsBlocked()){
+		    	turnLeft();
+		    }
 		}
 	}
 }
