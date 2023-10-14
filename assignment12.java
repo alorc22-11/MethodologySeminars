@@ -5,9 +5,12 @@ public class assignment12 extends SuperKarel{
 		  
 			     sheketeba();
 			     dabruneba();
-			     while(frontIsClear()){
+			     if(frontIsClear()){
 		         gadasvla();
+			     }else{
+			    	 sheketeba();
 			     }
+			     
 	       
 	}
 
@@ -25,6 +28,8 @@ public class assignment12 extends SuperKarel{
 			move();
 			move();
 			move();
+			sheketeba();
+			dabruneba();
 	}
 
 
