@@ -13,10 +13,7 @@ public class assignment13 extends SuperKarel {
 			putBeeper();
 			move();
 			move();
-			putBeeper();
-			move();
-			move();
-
+			
 		}
 		if(frontIsBlocked()){
 			turnLeft();
