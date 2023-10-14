@@ -18,6 +18,9 @@ public class assignment13 extends SuperKarel {
 			move();
 
 		}
-
+		if(frontIsBlocked()){
+			turnLeft();
+		}
 	}
 }
+
