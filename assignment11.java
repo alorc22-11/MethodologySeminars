@@ -1,15 +1,15 @@
 import stanford.karel.*;
 
-public class assignment11 extends SuperKarel{
-	
-	public void run(){
-		gazettanMisvla();
-		ageba();
-		wamowola();
+public class assignment11 extends SuperKarel {
+
+	public void run() {
+		goToNewspaper();
+		takeIt();
+		getBackToOriginPlace();
 	}
 
-	private void wamowola() {
-		
+	private void getBackToOriginPlace() {
+
 		move();
 		turnRight();
 		move();
@@ -17,25 +17,22 @@ public class assignment11 extends SuperKarel{
 		move();
 		move();
 		turnAround();
-		
+
 	}
 
-
-	private void ageba() {
+	private void takeIt() {
 		pickBeeper();
 		turnAround();
 	}
 
-	private void gazettanMisvla() {
+	private void goToNewspaper() {
 		turnRight();
 		move();
 		turnLeft();
 		move();
 		move();
 		move();
-		
-		
+
 	}
-	
 
 }
