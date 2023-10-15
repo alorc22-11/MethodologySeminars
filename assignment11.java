@@ -16,12 +16,13 @@ public class assignment11 extends SuperKarel {
 		move();
 		move();
 		turnAround();
-
+		// brundeba sawyis poziciaze
 	}
 
 	private void takeIt() {
 		pickBeeper();
 		turnAround();
+		// aq igebs gazets
 	}
 
 	private void goToNewspaper() {
@@ -31,7 +32,7 @@ public class assignment11 extends SuperKarel {
 		move();
 		move();
 		move();
-
+		// am funqciit migvyavs gazetamde tumca jer ar igebs
 	}
 
 }
