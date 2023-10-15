@@ -4,10 +4,14 @@ public class assignment14 extends SuperKarel {
 	public void run() {
 		MoveLikeDiagonal();
 
-		/*
-		 * if(frontIsBlocked()){ turnRight(); turnRight();
-		 * while(frontIsClear()){ move(); } }
-		 */
+		if (frontIsBlocked()) {
+			turnRight();
+			turnRight();
+			while (frontIsClear()) {
+				move();
+			}
+		}
+
 	}
 
 	private void MoveLikeDiagonal() {
@@ -21,5 +25,5 @@ public class assignment14 extends SuperKarel {
 				turnLeft();
 			}
 		}
-}
+	}
 }
