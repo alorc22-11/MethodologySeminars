@@ -9,15 +9,16 @@ public class assignment13 extends SuperKarel {
 	}
 
 	private void getToSecondLine() {
-		if(noBeepersPresent()){
+		if (noBeepersPresent()) {
 			turnLeft();
-			move();
-			turnRight();
-			turnAround();
-			putBeepersInOrder();
-			
+			if (frontIsClear()) {
+				move();
+				turnRight();
+				turnAround();
+				putBeepersInOrder();
+			}
 		}
-		
+
 	}
 
 	private void putBeepersInOrder() {
