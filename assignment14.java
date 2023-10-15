@@ -7,9 +7,7 @@ public class assignment14 extends SuperKarel {
 
 	}
 
-	private void goingDown() {
-
-		turnLeft();
+	private void goingDown(){
 		if (frontIsClear()) {
 			while (frontIsClear()) {
 				move();
