@@ -3,15 +3,22 @@ import stanford.karel.SuperKarel;
 public class assignment14 extends SuperKarel {
 	public void run() {
 		MoveLikeDiagonal();
+		goingDown();
 
-		if (frontIsBlocked()) {
-			turnRight();
-			turnRight();
+	}
+
+	private void goingDown() {
+
+		turnLeft();
+		if (frontIsClear()) {
 			while (frontIsClear()) {
 				move();
+				move();
+				turnRight();
+				move();
+				turnLeft();
 			}
 		}
-
 	}
 
 	private void MoveLikeDiagonal() {
