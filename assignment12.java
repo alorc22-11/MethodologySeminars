@@ -2,7 +2,6 @@ import stanford.karel.*;
 
 public class assignment12 extends SuperKarel {
 	public void run() {
-
 		fixingTheArch();
 		getToTheFirstLine();
 		while (frontIsClear()) {
@@ -17,7 +16,6 @@ public class assignment12 extends SuperKarel {
 			move();
 		}
 		turnLeft();
-
 	}
 
 	private void getToTheFollowingArch() {
