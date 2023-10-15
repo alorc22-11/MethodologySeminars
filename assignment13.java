@@ -17,6 +17,15 @@ public class assignment13 extends SuperKarel {
 				turnAround();
 				putBeepersInOrder();
 			}
+		}else{
+			turnLeft();
+			if(frontIsClear()){
+				move();
+				turnRight();
+				turnAround();
+				move();
+				putBeepersInOrder();
+			}
 		}
 
 	}
