@@ -20,8 +20,6 @@ public class assignment14 extends SuperKarel {
 				move();
 				turnLeft();
 			}
-		}else{turnRight();
-		turnRight();
-	}
+		}
 }
 }
