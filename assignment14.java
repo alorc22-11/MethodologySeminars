@@ -4,6 +4,8 @@ public class assignment14 extends SuperKarel {
 	public void run() {
 		MoveLikeDiagonal();
 		goingDown();
+		putBeeper();
+		turnLeft();
 
 	}
 
