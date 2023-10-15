@@ -19,10 +19,12 @@ public class assignment14 extends SuperKarel {
 		if (frontIsClear()) {
 			while (frontIsClear()) {
 				move();
-				move();
-				turnRight();
-				move();
-				turnLeft();
+				if (frontIsClear()) {
+					move();
+					turnRight();
+					move();
+					turnLeft();
+				}
 			}
 		}
 	}
