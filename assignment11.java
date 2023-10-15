@@ -9,7 +9,6 @@ public class assignment11 extends SuperKarel {
 	}
 
 	private void getBackToOriginPlace() {
-
 		move();
 		turnRight();
 		move();
