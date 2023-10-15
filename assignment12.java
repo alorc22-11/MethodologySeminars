@@ -5,14 +5,16 @@ public class assignment12 extends SuperKarel {
 		fixingTheArch();
 		getToTheFirstLine();
 		while (frontIsClear()) {
-			getToTheFollowingArch();
+			getToTheFollowingArch(); // ro gacherdes tu tagebis sheketebas
+										// movrchit da ar gawedos
 		}
 
 	}
 
 	private void getToTheFirstLine() {
 		turnAround();
-		while (frontIsClear()) {
+		while (frontIsClear()) { // qvevit dabruneba,rom qvevidan zevit
+									// sheaketos
 			move();
 		}
 		turnLeft();
@@ -22,7 +24,7 @@ public class assignment12 extends SuperKarel {
 		move();
 		move();
 		move();
-		move();
+		move(); // shemdeg tagze gadasvla
 		fixingTheArch();
 		getToTheFirstLine();
 	}
@@ -32,14 +34,11 @@ public class assignment12 extends SuperKarel {
 			putBeeper();
 		}
 		turnLeft();
-		while (frontIsClear()) {
+		while (frontIsClear()) { // unda daalagos beeperebi yvelgan
 			move();
-			if (noBeepersPresent()) {
+			if (noBeepersPresent()) { // tu devs beeperi ar debs
 				putBeeper();
 			}
 		}
 	}
 }
-
-
-

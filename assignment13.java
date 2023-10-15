@@ -9,9 +9,9 @@ public class assignment13 extends SuperKarel {
 
 	private void whatNeedsToBeDoneFacingWest() {
 		if (facingWest()) {
-			if (noBeepersPresent()) {
-				turnRight();
-				if (frontIsClear()) {
+			if (noBeepersPresent()) { // tu marcxniv iyureba rogor unda mouxvios
+				turnRight(); // ro sxva shemdeg xazzec gaagrdzelos dalageba
+				if (frontIsClear()) { // beeperebis
 					move();
 					turnRight();
 					putBeepersInOrder();
@@ -28,13 +28,13 @@ public class assignment13 extends SuperKarel {
 				}
 			}
 		}
-		
+
 	}
 
 	private void whatNeedsToBeDoneFacingEast() {
 		if (facingEast()) {
 			if (noBeepersPresent()) {
-				turnLeft();
+				turnLeft(); // marjvnis ro iyureba,rogor unda mouxvios
 				if (frontIsClear()) {
 					move();
 					turnRight();
@@ -62,11 +62,11 @@ public class assignment13 extends SuperKarel {
 			while (frontIsClear()) {
 				move();
 				if (frontIsClear()) {
-					move();
+					move(); // beeperebis darigeba ertis gamotovebit
 					putBeeper();
 				}
 			}
-		} else {
+		} else { // rom boloshi karelma ar gawedos
 			turnLeft();
 			if (frontIsClear()) {
 				while (frontIsClear()) {
@@ -80,5 +80,3 @@ public class assignment13 extends SuperKarel {
 		}
 	}
 }
-
-

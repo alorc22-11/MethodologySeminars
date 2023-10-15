@@ -10,7 +10,7 @@ public class assignment14 extends SuperKarel {
 	}
 
 	private void goingDown() {
-		if (frontIsBlocked()) {
+		if (frontIsBlocked()) { // kvadratis shua nawilidan chamosvla
 			turnRight();
 			turnRight();
 			while (frontIsClear()) {
@@ -20,10 +20,10 @@ public class assignment14 extends SuperKarel {
 
 	}
 
-	private void MoveLikeDiagonal() {
-		turnLeft();
-		if (frontIsClear()) {
-			while (frontIsClear()) {
+	private void MoveLikeDiagonal() { // ase tu ise diagonalze agvyavs
+		turnLeft(); // ogond naxevarkvadratis daaxloebit
+		if (frontIsClear()) { // am gzis yvela variantshi
+			while (frontIsClear()) { // kvadratis shuashi iqneba
 				move();
 				if (frontIsClear()) {
 					move();
