@@ -14,7 +14,6 @@ public class assignment13 extends SuperKarel {
 			move();
 			turnRight();
 			turnAround();
-			move();
 			putBeepersInOrder();
 			
 		}
