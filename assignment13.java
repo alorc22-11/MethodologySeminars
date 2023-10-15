@@ -3,31 +3,55 @@ import stanford.karel.SuperKarel;
 public class assignment13 extends SuperKarel {
 	public void run() {
 		putBeepersInOrder();
-		getToSecondLine();
-		// check();
+		whatNeedsToBeDoneFacingEast();
+		whatNeedsToBeDoneFacingWest();
+	
 		// goon();
 	}
 
-	private void getToSecondLine() {
-		if (noBeepersPresent()) {
-			turnLeft();
-			if (frontIsClear()) {
-				move();
+	private void whatNeedsToBeDoneFacingWest() {
+		if (facingWest()) {
+			if (noBeepersPresent()) {
 				turnRight();
-				turnAround();
-				putBeepersInOrder();
-			}
-		}else{
-			turnLeft();
-			if(frontIsClear()){
-				move();
+				if (frontIsClear()) {
+					move();
+					turnRight();
+					putBeepersInOrder();
+				}
+			} else {
 				turnRight();
-				turnAround();
-				move();
-				putBeepersInOrder();
+				if (frontIsClear()) {
+					move();
+					turnRight();
+					move();
+					putBeepersInOrder();
+				}
 			}
 		}
+		
+	}
 
+	private void whatNeedsToBeDoneFacingEast() {
+		if (facingEast()) {
+			if (noBeepersPresent()) {
+				turnLeft();
+				if (frontIsClear()) {
+					move();
+					turnRight();
+					turnAround();
+					putBeepersInOrder();
+				}
+			} else {
+				turnLeft();
+				if (frontIsClear()) {
+					move();
+					turnRight();
+					turnAround();
+					move();
+					putBeepersInOrder();
+				}
+			}
+		}
 	}
 
 	private void putBeepersInOrder() {
