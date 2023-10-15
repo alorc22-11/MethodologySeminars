@@ -58,25 +58,26 @@ public class assignment13 extends SuperKarel {
 		putBeeper();
 		if (frontIsClear()) {
 			while (frontIsClear()) {
-			}
-			move();
-			if (frontIsClear()) {
 				move();
-				putBeeper();
+				if (frontIsClear()) {
+					move();
+					putBeeper();
+				}
 			}
 		} else {
 			turnLeft();
-			while (frontIsClear()) {
-			}
-			move();
 			if (frontIsClear()) {
-				move();
-				putBeeper();
-			}
+				while (frontIsClear()) {
+					move();
+					if (frontIsClear()) {
+						move();
+						putBeeper();
+					}
+				}
 
+			}
 		}
 	}
 }
-
 
 
