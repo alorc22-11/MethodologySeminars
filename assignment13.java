@@ -6,12 +6,13 @@ public class assignment13 extends SuperKarel {
 		whatNeedsToBeDoneFacingEast();
 		whatNeedsToBeDoneFacingWest();
 	}
-
+	// tu marcxniv iyureba rogor unda mouxvios
+	// ro sxva shemdeg xazzec gaagrdzelos dalageba beeperebis
 	private void whatNeedsToBeDoneFacingWest() {
 		if (facingWest()) {
-			if (noBeepersPresent()) { // tu marcxniv iyureba rogor unda mouxvios
-				turnRight(); // ro sxva shemdeg xazzec gaagrdzelos dalageba
-				if (frontIsClear()) { // beeperebis
+			if (noBeepersPresent()) { 
+				turnRight(); 
+				if (frontIsClear()) { 
 					move();
 					turnRight();
 					putBeepersInOrder();
@@ -30,11 +31,11 @@ public class assignment13 extends SuperKarel {
 		}
 
 	}
-
+	// marjvnis ro iyureba,rogor unda mouxvios
 	private void whatNeedsToBeDoneFacingEast() {
 		if (facingEast()) {
 			if (noBeepersPresent()) {
-				turnLeft(); // marjvnis ro iyureba,rogor unda mouxvios
+				turnLeft();   
 				if (frontIsClear()) {
 					move();
 					turnRight();
@@ -55,18 +56,18 @@ public class assignment13 extends SuperKarel {
 			}
 		}
 	}
-
+	// beeperebis darigeba ertis gamotovebit
 	private void putBeepersInOrder() {
 		putBeeper();
 		if (frontIsClear()) {
 			while (frontIsClear()) {
 				move();
 				if (frontIsClear()) {
-					move(); // beeperebis darigeba ertis gamotovebit
+					move(); 
 					putBeeper();
 				}
 			}
-		} else { // rom boloshi karelma ar gawedos
+		} else { 
 			turnLeft();
 			if (frontIsClear()) {
 				while (frontIsClear()) {
