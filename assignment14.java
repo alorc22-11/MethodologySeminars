@@ -1,6 +1,7 @@
 import stanford.karel.SuperKarel;
 
 public class assignment14 extends SuperKarel {
+	
 	public void run() {
 		MoveLikeDiagonal();
 		goingDown();
@@ -8,9 +9,9 @@ public class assignment14 extends SuperKarel {
 		turnLeft();
 
 	}
-
+	// kvadratis shua nawilidan chamosvla
 	private void goingDown() {
-		if (frontIsBlocked()) { // kvadratis shua nawilidan chamosvla
+		if (frontIsBlocked()) { 
 			turnRight();
 			turnRight();
 			while (frontIsClear()) {
@@ -19,11 +20,15 @@ public class assignment14 extends SuperKarel {
 		}
 
 	}
-
-	private void MoveLikeDiagonal() { // ase tu ise diagonalze agvyavs
-		turnLeft(); // ogond naxevarkvadratis daaxloebit
-		if (frontIsClear()) { // am gzis yvela variantshi
-			while (frontIsClear()) { // kvadratis shuashi iqneba
+	 /*ase tu ise diagonalze agvyavs
+	   ogond naxevarkvadratis daaxloebit	
+	   am gzis yvela variantshi	
+	   kvadratis shuashi iqneba
+	 */
+	private void MoveLikeDiagonal() { 
+		turnLeft(); 
+		if (frontIsClear()) { 
+			while (frontIsClear()) { 
 				move();
 				if (frontIsClear()) {
 					move();
