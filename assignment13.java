@@ -56,7 +56,18 @@ public class assignment13 extends SuperKarel {
 
 	private void putBeepersInOrder() {
 		putBeeper();
-		while (frontIsClear()) {
+		if (frontIsClear()) {
+			while (frontIsClear()) {
+			}
+			move();
+			if (frontIsClear()) {
+				move();
+				putBeeper();
+			}
+		} else {
+			turnLeft();
+			while (frontIsClear()) {
+			}
 			move();
 			if (frontIsClear()) {
 				move();
@@ -66,5 +77,6 @@ public class assignment13 extends SuperKarel {
 		}
 	}
 }
+
 
 
