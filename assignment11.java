@@ -18,13 +18,13 @@ public class assignment11 extends SuperKarel {
 		turnAround();
 		
 	}
-// aq igebs gazets
+	// aq igebs gazets
 	private void takeIt() {
 		pickBeeper();
 		turnAround();
 		
 	}
-// am funqciit migvyavs gazetamde tumca jer ar igebs
+	// am funqciit migvyavs gazetamde tumca jer ar igebs
 	private void goToNewspaper() {
 		turnRight();
 		move();
