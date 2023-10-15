@@ -5,9 +5,6 @@ public class assignment13 extends SuperKarel {
 		putBeepersInOrder();
 		whatNeedsToBeDoneFacingEast();
 		whatNeedsToBeDoneFacingWest();
-	    putBeepersInOrder();
-	
-		// goon();
 	}
 
 	private void whatNeedsToBeDoneFacingWest() {
@@ -18,6 +15,7 @@ public class assignment13 extends SuperKarel {
 					move();
 					turnRight();
 					putBeepersInOrder();
+					whatNeedsToBeDoneFacingEast();
 				}
 			} else {
 				turnRight();
@@ -26,6 +24,7 @@ public class assignment13 extends SuperKarel {
 					turnRight();
 					move();
 					putBeepersInOrder();
+					whatNeedsToBeDoneFacingEast();
 				}
 			}
 		}
@@ -41,6 +40,7 @@ public class assignment13 extends SuperKarel {
 					turnRight();
 					turnAround();
 					putBeepersInOrder();
+					whatNeedsToBeDoneFacingWest();
 				}
 			} else {
 				turnLeft();
@@ -50,6 +50,7 @@ public class assignment13 extends SuperKarel {
 					turnAround();
 					move();
 					putBeepersInOrder();
+					whatNeedsToBeDoneFacingWest();
 				}
 			}
 		}
