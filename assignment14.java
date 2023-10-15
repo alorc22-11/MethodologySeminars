@@ -7,16 +7,15 @@ public class assignment14 extends SuperKarel {
 
 	}
 
-	private void goingDown(){
-		if (frontIsClear()) {
+	private void goingDown() {
+		if (frontIsBlocked()) {
+			turnRight();
+			turnRight();
 			while (frontIsClear()) {
 				move();
-				move();
-				turnRight();
-				move();
-				turnLeft();
 			}
 		}
+
 	}
 
 	private void MoveLikeDiagonal() {
