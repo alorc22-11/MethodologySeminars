@@ -5,6 +5,7 @@ public class assignment13 extends SuperKarel {
 		putBeepersInOrder();
 		whatNeedsToBeDoneFacingEast();
 		whatNeedsToBeDoneFacingWest();
+	    putBeepersInOrder();
 	
 		// goon();
 	}
