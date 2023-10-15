@@ -5,38 +5,38 @@ public class assignment12 extends SuperKarel {
 		fixingTheArch();
 		getToTheFirstLine();
 		while (frontIsClear()) {
-			getToTheFollowingArch(); // ro gacherdes tu tagebis sheketebas
-										// movrchit da ar gawedos
+		getToTheFollowingArch(); 						
 		}
 
 	}
-
+	// qvevit dabruneba,rom qvevidan zevit
+	// sheaketos
 	private void getToTheFirstLine() {
 		turnAround();
-		while (frontIsClear()) { // qvevit dabruneba,rom qvevidan zevit
-									// sheaketos
+		while (frontIsClear()) { 
 			move();
 		}
 		turnLeft();
 	}
-
+	// shemdeg tagze gadasvla
 	private void getToTheFollowingArch() {
 		move();
 		move();
 		move();
-		move(); // shemdeg tagze gadasvla
+		move(); 
 		fixingTheArch();
 		getToTheFirstLine();
 	}
-
+	// unda daalagos beeperebi yvelgan
+	// tu devs beeperi ar debs
 	private void fixingTheArch() {
 		if (noBeepersPresent()) {
 			putBeeper();
 		}
 		turnLeft();
-		while (frontIsClear()) { // unda daalagos beeperebi yvelgan
+		while (frontIsClear()) { 
 			move();
-			if (noBeepersPresent()) { // tu devs beeperi ar debs
+			if (noBeepersPresent()) { 
 				putBeeper();
 			}
 		}
