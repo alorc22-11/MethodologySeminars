@@ -76,7 +76,6 @@ public class assignment13 extends SuperKarel {
 						putBeeper();
 					}
 				}
-
 			}
 		}
 	}
