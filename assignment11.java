@@ -7,7 +7,7 @@ public class assignment11 extends SuperKarel {
 		takeIt();
 		getBackToOriginPlace();
 	}
-
+	// brundeba sawyis poziciaze
 	private void getBackToOriginPlace() {
 		move();
 		turnRight();
@@ -16,15 +16,15 @@ public class assignment11 extends SuperKarel {
 		move();
 		move();
 		turnAround();
-		// brundeba sawyis poziciaze
+		
 	}
-
+// aq igebs gazets
 	private void takeIt() {
 		pickBeeper();
 		turnAround();
-		// aq igebs gazets
+		
 	}
-
+// am funqciit migvyavs gazetamde tumca jer ar igebs
 	private void goToNewspaper() {
 		turnRight();
 		move();
@@ -32,7 +32,7 @@ public class assignment11 extends SuperKarel {
 		move();
 		move();
 		move();
-		// am funqciit migvyavs gazetamde tumca jer ar igebs
+		
 	}
 
 }
