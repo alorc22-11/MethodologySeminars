@@ -6,10 +6,11 @@ public class Problem1 extends SuperKarel{
 
 	 }
 	 private void sheavse(){
-		 putBeeper();
 		 while(frontIsClear()){
 			 putBeeper();
 			 move();
+			 putBeeper();
+			
 			 
 		 }
 	 }
