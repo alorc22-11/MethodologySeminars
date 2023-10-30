@@ -8,9 +8,7 @@ public class Problem1 extends SuperKarel{
 	 private void sheavse(){
 		 while(frontIsClear()){
 			 putBeeper();
-			 move();
-			 putBeeper();
-			
+			 move();	
 			 
 		 }
 	 }
