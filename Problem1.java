@@ -2,7 +2,7 @@ import stanford.karel.*;
 public class Problem1 extends SuperKarel{
 	 public void run(){
 	sheavse();
-		
+		 putBeeper();	
 
 	 }
 	 private void sheavse(){
@@ -11,6 +11,7 @@ public class Problem1 extends SuperKarel{
 			 move();	
 			 
 		 }
+	
 	 }
 	 
 }
