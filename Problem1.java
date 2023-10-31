@@ -5,6 +5,9 @@ public class Problem1 extends SuperKarel{
 	while(leftIsBlocked()){
 		move();
 	}
+	putBeeper();
+	turnLeft();
+	
 	 
 }
 }
