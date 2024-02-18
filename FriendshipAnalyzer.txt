@@ -1,0 +1,57 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.StringTokenizer;
+
+import javax.xml.stream.events.Characters;
+
+import acm.program.ConsoleProgram;
+
+public class FriendshipAnalyzer extends ConsoleProgram {
+
+	public void startFriendshipAnalysis() {
+		HashMap<String, Integer> friendships = new HashMap<>();
+		String currentPair;
+		while(true) {
+			currentPair = readLine("Enter a friend pair (or press Enter to finish): ");
+			if(currentPair.equals("")) 
+				break;
+			String friend1 = currentPair.substring(0, currentPair.indexOf(" "));
+			if(friendships.containsKey(friend1)) {
+				friendships.put(friend1, friendships.get(friend1) + 1);
+			} else {
+				friendships.put(friend1, 1);
+			}
+		}
+		
+	
+		Entry<String, Integer> maxFriendshipSet = null;
+		for(Entry<String, Integer> entry : friendships.entrySet()) {
+			if(maxFriendshipSet != null && maxFriendshipSet.getValue() < entry.getValue()) {
+				maxFriendshipSet = entry;
+			} else {
+				maxFriendshipSet = entry;
+			}
+		}
+		println("Friend with the most connections: " + (maxFriendshipSet == null ? "" : maxFriendshipSet.getKey()));
+		
+		
+		int value;
+		int maxConnections = 0;
+		String maxFriend = "";
+		for (String key : friendships.keySet()) {
+			value = friendships.get(key);
+			if (maxConnections < value) {
+				maxConnections = value;
+				maxFriend = key;
+			}
+		}
+		println("Friend with the most connections: " + maxFriend);
+	}
+}
