@@ -1,0 +1,34 @@
+import acm.program.ConsoleProgram;
+
+public class Problem45 extends ConsoleProgram {
+
+	public void run() {
+		String lala = readLine("Enter String: ");
+		char chr = readChar();
+		println(chr + " frequency in this string \"" + lala + "\" is: " + countCharInText(str, chr));
+	}
+
+	private int countCharInText(String lala, char chr) {
+		int counter = 0;
+		for (int i = 0; i < lala.length(); i++) {
+			if (lala.charAt(i) == chr)
+				counter++;
+		}
+		return counter;
+	}
+
+	private char readChar() {
+		while (true) {
+			String line = readLine("Enter Character: ");
+			if (isValidCharacter(line)) {
+				return line.charAt(0); 
+			}
+			println("Invalid Character");
+		}
+	}
+
+	private boolean isValidCharacter(String line) {
+		return line.length() == 1;
+	}
+
+}
