@@ -1,0 +1,33 @@
+import java.util.HashMap;
+import java.util.HashSet;
+
+import acm.program.ConsoleProgram;
+
+public class FriendshipTracker extends ConsoleProgram {
+
+    public void run() {
+        HashMap<String, HashSet<String>> friendships = new HashMap<>();
+
+        while (true) {
+            String input = readLine("Enter Friend Pair (or press Enter to finish): ");
+            if (input.isEmpty()) {
+                break;
+            }
+
+            String[] friends = input.split("\\s+");
+            String friend1 = friends[0];
+            String friend2 = friends[1];
+
+            friendships.computeIfAbsent(friend1, k -> new HashSet<>()).add(friend2);
+        }
+
+        printFriendships(friendships);
+    }
+
+    private void printFriendships(HashMap<String, HashSet<String>> friendships) {
+        for (String friend : friendships.keySet()) {
+            HashSet<String> friendSet = friendships.get(friend);
+            println(friend + " has friends: " + friendSet);
+        }
+    }
+}
