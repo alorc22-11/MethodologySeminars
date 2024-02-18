@@ -1,0 +1,80 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import acm.program.ConsoleProgram;
+
+public class problem53 extends ConsoleProgram {
+
+	private static String DEN = ".?!;";
+
+	public void run() {
+		BufferedReader rd = null;
+		String fileContent = "";
+		try {
+			FileReader r = new FileReader("Karel52WithBufferedReader.java");
+			rd = new BufferedReader(r);
+			while (true) {
+				String line = rd.readLine();
+				if (line == null)
+					break;
+				fileContent += line + "/n";
+			}
+		} catch (IOException e) {
+			e.getStackTrace();
+		} finally {
+			if (rd != null)
+				try {
+					rd.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+		}
+		println("Char Number: " + getCharNum(fileContent));
+		println("Word Number: " + getWordNum(fileContent));
+		int[] resForEachEnding = getSentNum(fileContent);
+		for (int i = 0; i < DEN.length(); i++) {
+			println("Sentence Number with" + DEN.charAt(i) + ": " + resForEachEnding[i]);
+		}
+	}
+
+	private int[] getSentNum(String fileContent) {
+
+		int[] countRes = new int[DEN.length()];
+
+		for (int i = 0; i < DEN.length(); i++) {
+			countRes[i] = gethisCharNum(fileContent, "" + DEN.charAt(i));
+		}
+		return countRes;
+	}
+
+	private int gethisCharNum(String fileContent, String chr) {
+		StringTokenizer tz = new StringTokenizer(fileContent, chr);
+		int counter = 0;
+		while (tz.hasMoreTokens()) {
+			counter += 1;
+			tz.nextToken();
+		}
+		return counter;
+	}
+
+	private int getWordNum(String fileContent) {
+		StringTokenizer tz = new StringTokenizer(fileContent);
+		int counter = 0;
+		while (tz.hasMoreTokens()) {
+			counter += 1;
+			tz.nextToken();
+		}
+		return counter;
+	}
+
+	private int getCharNum(String fileContent) {
+		StringTokenizer tz = new StringTokenizer(fileContent);
+		int counter = 0;
+		while (tz.hasMoreTokens()) {
+			counter += tz.nextToken().length();
+		}
+		return counter;
+	}
+}
