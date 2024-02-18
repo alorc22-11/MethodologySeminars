@@ -1,0 +1,41 @@
+import java.awt.event.ActionEvent;
+import javax.swing.JButton;
+import javax.swing.JTextField;
+
+import acm.graphics.GLabel;
+import acm.program.GraphicsProgram;
+
+public class problem68 extends GraphicsProgram {
+
+    private JTextField inputField;
+    private JButton enterButton;
+    private static final int X_OFFSET = 5;
+    private static final int Y_OFFSET = 5;
+    private int lastMessageY;
+
+  
+    public void init() {
+        // Initialize input field
+        inputField = new JTextField(20);
+        add(inputField, SOUTH);
+
+        // Initialize enter button
+        enterButton = new JButton("Enter");
+        add(enterButton, SOUTH);
+
+        // Initialize message display
+        lastMessageY = 0;
+
+        // Add action listeners
+        inputField.addActionListener(this::processInput);
+        enterButton.addActionListener(this::processInput);
+    }
+
+    private void processInput(ActionEvent event) {
+        String entry = inputField.getText();
+        GLabel newMessage = new GLabel(entry);
+        lastMessageY += Y_OFFSET + newMessage.getAscent();
+        add(newMessage, X_OFFSET, lastMessageY);
+        inputField.setText("");
+    }
+}
